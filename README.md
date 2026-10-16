@@ -1,9 +1,9 @@
 # K-means clustering
 
-Final 1080×1920 video, 41.43 seconds, with ElevenLabs narration, captions and synchronized sound effects.
+Final 1080×1920 video, 35.9 seconds, with ElevenLabs narration, captions and synchronized sound effects.
 
-Phone preview: https://cduque001.github.io/kmeans-preview/?v=impact5
+Phone preview: https://cduque001.github.io/kmeans-preview/?v=retention6
 
-The opening now uses a fast neighborhood camera move, a dramatic K-MEANS title reveal, layered sound and an expressive ElevenLabs voice take. The other five voice recordings and explanatory scenes are preserved. No mascot.
+The tighter cut preserves the dramatic K-MEANS opening, moves directly from houses to data, makes coordinate averages clearer, emphasizes the dot changing groups, and ends on the completed clusters. No mascot.
 
 This repository contains only the shareable video and preview assets. The production repository remains private.
