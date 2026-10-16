@@ -1,7 +1,34 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#f5f0e5"><title>K-means · Final video</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#f5f0e5;color:#203731;font:16px system-ui,sans-serif;display:flex;flex-direction:column;align-items:center;padding:22px 14px 35px}h1{font-size:20px;margin:0 0 5px}p{margin:0 0 16px;font-size:14px;color:#626f65;text-align:center}video{width:min(100%,540px);max-height:83svh;aspect-ratio:9/16;background:#f5f0e5;border-radius:18px;box-shadow:0 8px 30px #20373120}a{color:#27696b}footer{margin:20px 0 0;text-align:center;line-height:1.6;font-size:14px}</style></head>
-<body><h1>K-means clustering</h1><p>Tighter cut · Clearer explanation</p>
-<video id="film" controls playsinline preload="metadata" poster="poster.jpg?v=retention6"><source src="kmeans-final.mp4?v=retention6" type="video/mp4"></video>
-<footer><a href="kmeans-final.mp4?v=retention6" download="kmeans-clustering.mp4">Download video</a><br>Original neighborhood illustrations · Captions and sound effects</footer>
-</body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'none'; style-src 'self'; img-src 'self'; media-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#f5f0e5">
+<link rel="stylesheet" href="site.css?v=site7">
+<title>K-means clustering · Watch and download</title>
+<meta name="description" content="Learn K-means clustering in 36 seconds. Watch the video, read the transcript, or download the MP4.">
+</head>
+<body>
+<main>
+<header><h1>K-means clustering</h1><p>Learn how the groups take shape in 36 seconds.</p></header>
+<figure class="player">
+<video id="film" controls playsinline preload="metadata" aria-label="K-means clustering explained in 36 seconds" poster="poster.jpg?v=retention6">
+<source src="kmeans-final.mp4?v=retention6" type="video/mp4">
+<track kind="captions" src="captions-en.vtt?v=site7" srclang="en" label="English">
+Your browser cannot play this video. <a href="kmeans-final.mp4?v=retention6">Download the MP4</a> or read the transcript below.
+</video>
+</figure>
+<div class="actions"><a class="download" href="kmeans-final.mp4?v=retention6" download="kmeans-clustering.mp4">Download video</a><p class="file-info">MP4 · 1080 × 1920 · 35.9 seconds · 10.9 MB</p></div>
+<details class="transcript"><summary>Read the transcript</summary><div class="transcript-content"><p class="caption-note">The video includes captions. An optional English caption track is also available in the player controls.</p><p>If you want to understand machine learning, start with K-means.</p>
+<p>Each dot marks a house&#x27;s location. Choose three groups, so K is three.</p>
+<p>K-means picks three starting centers. This dot is closest to purple, so it joins that group. Now every dot picks its nearest center.</p>
+<p>Orange&#x27;s center is off to one side. Average the dots&#x27; positions left to right, then up and down. Every dot counts equally. Those two averages give the new center: the mean. Do this for every group.</p>
+<p>Now the centers have moved, so a dot might be closer to a different one. Check every dot again, update the groups, then move the centers again. Keep repeating until the groups stop changing.</p>
+<p>That&#x27;s K-means: assign, average, and repeat until the groups settle.</p></div></details>
+<p class="credits">Original neighborhood illustrations · Narration and sound effects</p>
+</main>
+</body>
+</html>

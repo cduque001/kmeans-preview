@@ -1,0 +1,62 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.625
+If you want to understand machine learning, start with K-means.
+
+2
+00:00:02.794 --> 00:00:04.447
+Each dot marks a house's location.
+
+3
+00:00:04.641 --> 00:00:06.504
+Choose three groups, so K is three.
+
+4
+00:00:06.676 --> 00:00:08.266
+K-means picks three starting centers.
+
+5
+00:00:08.529 --> 00:00:11.230
+This dot is closest to purple, so it joins that group.
+
+6
+00:00:11.230 --> 00:00:12.988
+Now every dot picks its nearest center.
+
+7
+00:00:13.166 --> 00:00:15.158
+Orange's center is off to one side.
+
+8
+00:00:15.158 --> 00:00:18.078
+Average the dots' positions left to right, then up and down.
+
+9
+00:00:18.078 --> 00:00:19.488
+Every dot counts equally.
+
+10
+00:00:19.618 --> 00:00:21.969
+Those two averages give the new center: the mean.
+
+11
+00:00:22.180 --> 00:00:23.696
+Do this for every group.
+
+12
+00:00:23.871 --> 00:00:26.969
+Now the centers have moved, so a dot might be closer to a different one.
+
+13
+00:00:26.969 --> 00:00:29.910
+Check every dot again, update the groups, then move the centers again.
+
+14
+00:00:30.108 --> 00:00:32.024
+Keep repeating until the groups stop changing.
+
+15
+00:00:32.199 --> 00:00:35.494
+That's K-means: assign, average, and repeat until the groups settle.
+
